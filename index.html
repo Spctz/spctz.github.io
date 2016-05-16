@@ -4,13 +4,72 @@
         <title> </title>
     </head>
     <body>
-<h1>Welcome to Spctz Portfolio</h1>
-<h3>You can't go back</h3>
-<div class="header-image-wrapper ">
-                        <a href="/" class="header-image parallax cover  loaded" data-bg-image="http://static.tumblr.com/d5ebd9ee319f1a7d812e96acd741d02b/8lniogy/HQInzuc3r/tumblr_static_filename_2048_v2.jpg" style="transform: translate3d(0px, 0px, 0px);">
-                            
-                        </a>
-                        <div class="loader-bg"></div>
-                    </div>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://static.tumblr.com/d5ebd9ee319f1a7d812e96acd741d02b/8lniogy/HQInzuc3r/tumblr_static_filename_2048_v2.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    p {
+        color:black;
+    }
+    .Profile {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="Profile" src="http://38.media.tumblr.com/avatar_60a22e01c181_128.png">
+    <h1>Spctzs Portfolio</h1>
+    <p>You can't go back from here</p>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best </a></li>
+      <li><a href="#">Worst</a></li>
+    </ul>
+  </header>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+  <h2> Im working on this page at the moment</h2>
+  <img src='https://40.media.tumblr.com/7af497a09e1dd144c6add25c474f7599/tumblr_nzz8zcQyrg1s0gke6o1_500.jpg'>
+</body>
     </body>
 </html>
